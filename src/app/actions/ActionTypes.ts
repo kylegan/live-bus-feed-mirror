@@ -1,0 +1,7 @@
+// Map
+export const LOAD_BUS_LIST_REQUEST = 'LOAD_BUS_LIST_REQUEST';
+export const LOAD_BUS_LIST_RECEIVED = 'LOAD_BUS_LIST_RECEIVED';
+
+// Timer
+export const DECREMENT_TIMER = 'DECREMENT_TIMER';
+export const SET_TIMER = 'SET_TIMER';

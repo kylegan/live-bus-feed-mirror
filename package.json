@@ -1,0 +1,34 @@
+{
+  "name": "spare-challenge",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@mapbox/mapbox-gl-redux": "^0.1.0",
+    "@types/dotenv": "^4.0.3",
+    "@types/react-map-gl": "^3.2.1",
+    "@types/react-redux": "^5.0.16",
+    "@types/superagent": "^3.5.8",
+    "dotenv": "^5.0.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-map-gl": "^3.2.5",
+    "react-redux": "^5.0.7",
+    "react-scripts-ts": "2.15.1",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "superagent": "^3.8.2"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.2.3",
+    "@types/node": "^9.6.5",
+    "@types/react": "^16.3.11",
+    "@types/react-dom": "^16.0.5",
+    "typescript": "^2.8.1"
+  }
+}

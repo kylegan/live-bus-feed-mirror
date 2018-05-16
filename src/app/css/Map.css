@@ -1,0 +1,45 @@
+/* Map */
+.mapview {
+  margin: auto;
+  width: 70%;
+  background-color: #eceef1;
+  overflow: hidden;
+  height: 800px;
+}
+
+.mapview div {
+  margin: auto;
+}
+
+/* Bus Marker */
+.bus:before {
+  content: ' ';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: red;
+  border-radius: 8px;
+  margin: 0 8px;
+}
+.bus {
+  border-radius: 20px;
+  padding-right: 12px;
+  margin: -12px;
+  color: transparent;
+  line-height: 24px;
+  font-size: 13px;
+  white-space: nowrap;
+}
+.bus span {
+  display: none;
+}
+.bus:hover {
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+}
+.bus:hover span {
+  display: inline-block;
+}
+.mapboxgl-marker:hover {
+  z-index: 1;
+}
